@@ -1,0 +1,47 @@
+/* common */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Roboto Mono', monospace;
+}
+
+/* header */
+
+/* nav */
+header nav {
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #191415;
+}
+
+header nav img {
+    width: 50px;
+}
+/* main */
+main {
+    height: 100%;
+    padding: 50px 0;
+    background-color: #363535;
+}
+
+/* card-container */
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.card {
+    width: calc(25% - 20px);
+    margin: 0 10px 30px 0;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: 400px;
+}
